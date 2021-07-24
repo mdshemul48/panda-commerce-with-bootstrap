@@ -16,6 +16,30 @@ body{
     header area
 ----------------------------- */
 
+/* --------------------------
+    navbar area
+----------------------------- */
+.nav-search-bar{
+    border-radius: 1.5rem;
+}
+
+.nav-search-bar ,.nav-search-bar input{
+    outline: none;
+    padding: .5rem;
+    color: #BABABA;
+    background: #F1F1F1;
+}
+
+.nav-search-bar i{
+    padding-right: .5rem;
+}
+
+
+
+ /* --------------------------
+     slider area
+ ----------------------------- */
+ 
 .item{
     border-radius: 2rem;
 }
