@@ -56,3 +56,40 @@ body{
 .card{
     border-radius: 1.5rem;
 }
+
+/* --------------------------
+    constant area
+----------------------------- */
+.contant-us-area{
+    background-color: #FFF2F1;
+    border-radius: 1.5rem;
+    padding: 9rem;
+}
+
+.send-box input, .send-box button{
+    padding: 1.2rem 1rem;
+    border: 0px;
+}
+.send-box input{
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    outline: none;
+}
+.send-box button{
+   background-image: linear-gradient(180deg,#FF589B,#FF136F);
+   border-top-right-radius: .5rem;
+   border-bottom-right-radius: .5rem;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+} 
+
+
+
+/* --------------------------
+    responsive style for mobile
+----------------------------- */
+@media  only screen and (max-width:799px) {
+    .contant-us-area{
+        padding: 2rem 0;
+    }
+}
