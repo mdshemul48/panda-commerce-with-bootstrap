@@ -1,0 +1,30 @@
+/* --------------------------
+    importing fonts
+----------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap');
+
+
+/* --------------------------
+    body and utilities style
+----------------------------- */
+body{
+    background-color: #F4F4F4;
+}
+
+/* --------------------------
+    header area
+----------------------------- */
+
+.item{
+   
+    border-radius: 2rem;
+}
+.item-1{
+    background-color: #FEEAE9;
+}
+.item-2{
+    background-color: #fad7b1;
+}
+.item-3{
+    background-color: #c9ddfd;
+}
